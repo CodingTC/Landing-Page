@@ -137,7 +137,10 @@ button {
 }
 
 .fourth-part {
-    padding: 70px 255px 70px 255px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 140px 255px 140px 255px;
 }
 
 .action-call {
@@ -165,4 +168,14 @@ button {
     border-style: solid;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1F2937;
+}
 
+.footer p {
+    color: #E5E7EB;
+}

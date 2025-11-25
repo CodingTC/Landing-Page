@@ -114,3 +114,23 @@ button {
     border-style: solid;
     border-radius: 8px;
 }
+
+.third-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding: 70px 375px 50px 375px;
+    background-color: #E5E7EB;
+}
+
+.third-part p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300px;
+}
+
+.third-part h3 {
+    align-self: flex-end;
+}
